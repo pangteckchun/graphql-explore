@@ -1,11 +1,11 @@
 # graphql-explore
 Allows anyone to explore **graphql** know-hows with zero setup needed (except for pre-requisites stated below).
 
-Uses graphpack (https://github.com/glennreyes/graphpack) as the zero-config graphql server / runtime to kick-start
-** There is no need to install graphpack and related dependencies; the git clone would provide the entire packages required
+Uses graphpack (https://github.com/glennreyes/graphpack) as the zero-config graphql server / runtime to kick-start.  
+* There is no need to install graphpack and related dependencies; the git clone would provide the entire packages required.
 
 ### Pre-requisites
-1. Install nodejs if you haven't, which also installs npm
+1. Install **nodejs** if you haven't, which also installs **npm**
 
 ## Execution
 1. Git clone the entire repo
