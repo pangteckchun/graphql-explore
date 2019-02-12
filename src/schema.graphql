@@ -1,0 +1,21 @@
+
+  type Query {
+    "Get all floors for the building"
+    GetFloors(premiseId: Int!): [Unit]
+
+    "Get a particular unit based on its Id"
+    GetUnit(id: Int!): Unit
+  }  
+  
+  "Individual units in a building"
+  type Unit {
+    id: Int
+    
+    """
+    Premise ID for the building which the unit is in
+    """
+    premiseId: Int
+    
+    level: String
+    name: String
+  }

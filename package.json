@@ -1,0 +1,26 @@
+{
+  "name": "graphql-explore",
+  "version": "1.0.0",
+  "description": "Allows anyone to explore **graphql** know-hows with zero setup needed (except for pre-requisites stated below).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "graphpack",
+    "build": "graphpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangteckchun/graphql-explore.git"
+  },
+  "author": "Pang Teck Chun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pangteckchun/graphql-explore/issues"
+  },
+  "homepage": "https://github.com/pangteckchun/graphql-explore#readme",
+  "dependencies": {
+    "apollo-server": "^2.4.0",
+    "graphpack": "^1.0.6",
+    "graphql": "^14.1.1"
+  }
+}
