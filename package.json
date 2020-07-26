@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/pangteckchun/graphql-explore#readme",
   "dependencies": {
-    "apollo-server": "^2.4.0",
+    "apollo-server": "^2.14.2",
     "graphpack": "^1.0.6",
     "graphql": "^14.1.1"
   }
